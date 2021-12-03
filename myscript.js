@@ -6,7 +6,7 @@ if(age < 18){
 }else if(age >= 65){
     scount = 45;
 }else{
-    scount = 1;
+    scount = 0;
 }
 
 let price = 0.21 * miles;
