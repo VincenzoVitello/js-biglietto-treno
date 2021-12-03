@@ -13,4 +13,4 @@ let price = 0.21 * miles;
 let discount = (price / 100) * scount;
 let discountedPrice = (price - discount);
 
-document.getElementById('ticket_price').innerHTML = Math.ceil(discountedPrice)+ '€';
+document.getElementById('ticket_price').innerHTML = discountedPrice.toFixed(2)+ '€';
