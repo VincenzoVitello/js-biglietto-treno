@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    background-image: url(https://gualdonews.it/wp-content/uploads/2017/12/frecciarossa-2-1280x720.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+.my_stile_train{
+    margin: 250px auto;
+    padding: 10px;
+    background-color: rgba(0,0,0,.7);
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    opacity: .7;
+}
+.my_stile_train:hover{
+    opacity: 1;
+    cursor: pointer;
+}
